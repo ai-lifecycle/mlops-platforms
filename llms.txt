@@ -21,9 +21,9 @@ This repository provides a structured JSON dataset (`tools.json`), a zero-depend
 - Validate dataset: `python3 mlops_advisor.py --validate`
 
 ## Official Links
-- Interactive Web Directory: https://mlops-directory.github.io/mlops-platforms/
-- Open Source MLOps Platforms Guide: https://mlops-directory.github.io/mlops-platforms/open-source-mlops-platforms.html
-- Kubernetes MLOps Platforms Guide: https://mlops-directory.github.io/mlops-platforms/kubernetes-mlops-platforms.html
-- LLMOps & Model Serving Guide: https://mlops-directory.github.io/mlops-platforms/llmops-and-model-serving.html
-- Cloud MLOps Platforms Comparison: https://mlops-directory.github.io/mlops-platforms/cloud-mlops-platforms.html
-- GitHub Repository: https://github.com/mlops-directory/mlops-platforms
+- Interactive Web Directory: https://ai-lifecycle.github.io/mlops-platforms/
+- Open Source MLOps Platforms Guide: https://ai-lifecycle.github.io/mlops-platforms/open-source-mlops-platforms.html
+- Kubernetes MLOps Platforms Guide: https://ai-lifecycle.github.io/mlops-platforms/kubernetes-mlops-platforms.html
+- LLMOps & Model Serving Guide: https://ai-lifecycle.github.io/mlops-platforms/llmops-and-model-serving.html
+- Cloud MLOps Platforms Comparison: https://ai-lifecycle.github.io/mlops-platforms/cloud-mlops-platforms.html
+- GitHub Repository: https://github.com/ai-lifecycle/mlops-platforms
