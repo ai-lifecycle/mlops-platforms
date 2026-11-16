@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LLMOps &amp; Model Serving Platforms (2026) — Ray, BentoML, KServe, W&amp;B</title>
+  <title>LLMOps &amp; Model Serving Platforms (2026): Ray, BentoML, KServe, W&amp;B</title>
   <meta name="description" content="Compare LLMOps and model serving platforms in 2026: Ray Serve, BentoML, KServe, MLflow Tracing, W&amp;B Weave, and Comet Opik.">
   <link rel="canonical" href="https://mlops-directory.github.io/mlops-platforms/llmops-and-model-serving.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
 </head>
 <body>
   <header class="site-nav">
-    <div class="wrap site-nav__inner">
+    <div class="container site-nav__inner">
       <a class="brand" href="./index.html">
         <span>MLOps Platforms</span>
         <span class="brand__tag">2026.11</span>
@@ -31,29 +31,50 @@
 
   <main>
     <section class="hero">
-      <div class="wrap article-body">
+      <div class="container article-body">
         <h1 class="hero__title">LLMOps &amp; model serving platforms</h1>
-        <p class="hero__lede">Serve open-weight LLMs with adaptive batching and trace agent evaluations in production.</p>
+        <p class="lead hero__lede">Serve open-weight LLMs with adaptive batching and trace agent evaluations in production.</p>
         <div class="hero__actions">
           <a class="btn btn--primary" href="./index.html#directory">Explore LLMOps stack</a>
         </div>
       </div>
     </section>
 
-    <section class="band">
-      <div class="wrap article-body">
-        <h2>Serving throughput &amp; LLM observability</h2>
-        <p>Modern generative AI workloads split into two distinct platform requirements: high-throughput GPU inference and structured prompt/agent evaluation.</p>
-        <ul>
-          <li><strong>Ray Serve (Anyscale):</strong> Multi-node GPU orchestration and composable inference pipelines for vLLM and multimodal models.</li>
-          <li><strong>BentoML:</strong> Pythonic model packaging with adaptive batching, OpenLLM support, and OCI container builds.</li>
-          <li><strong>KServe:</strong> Standardized Kubernetes inference protocol supporting vLLM, Triton, and scale-to-zero Knative routing.</li>
-          <li><strong>MLflow, W&amp;B Weave &amp; Comet Opik:</strong> Trace spans, latency/token cost telemetry, and regression evaluation suites for RAG and agents.</li>
-        </ul>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Serving throughput &amp; LLM observability</h2>
+          <p>Modern generative AI workloads split into high-throughput GPU inference and structured prompt/agent evaluation.</p>
+        </div>
+        <div class="rows-list">
+          <article class="row-item">
+            <h3>Ray Serve (Anyscale)</h3>
+            <p>Multi-node GPU orchestration and composable inference pipelines for vLLM and multimodal models.</p>
+          </article>
+          <article class="row-item">
+            <h3>BentoML</h3>
+            <p>Pythonic model packaging with adaptive batching, OpenLLM support, and OCI container builds.</p>
+          </article>
+          <article class="row-item">
+            <h3>KServe</h3>
+            <p>Standardized Kubernetes inference protocol supporting vLLM, Triton, and scale-to-zero Knative routing.</p>
+          </article>
+          <article class="row-item">
+            <h3>MLflow, W&amp;B Weave &amp; Opik</h3>
+            <p>Trace spans, latency and token cost telemetry, and regression evaluation suites for RAG and agents.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <h2>Get LLMOps recommendations via CLI</h2>
+    <section class="section section--tight section--deep">
+      <div class="container split">
+        <div class="section-head">
+          <h2>Get LLMOps recommendations</h2>
+          <p>Rank free and open-source LLMOps stacks using the CLI advisor.</p>
+        </div>
         <div class="panels">
-          <div class="stat-cell stat-cell--wide">
+          <div class="stat-cell--wide">
             <div class="cli-snippet"><span class="cli-prompt">$</span>python3 mlops_advisor.py --recommend --workflow llmops --budget free --llmops</div>
           </div>
         </div>
@@ -62,7 +83,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
+    <div class="container footer-grid">
       <div>
         <a class="brand" href="./index.html">MLOps Platforms Directory</a>
         <p class="footer-note">Open-source JSON dataset and comparison tool maintained via community Pull Requests. Licensed under MIT.</p>

@@ -120,14 +120,14 @@
             <ul class="compare-list">
               <li><span>License</span><span class="measured">${escapeHtml(t.license_name)}</span></li>
               <li><span>Pricing</span><span class="measured">${escapeHtml(t.pricing)}</span></li>
-              <li><span>Tracking</span>${capMark(c.experiment_tracking)}</li>
-              <li><span>Pipelines</span>${capMark(c.pipeline_orchestration)}</li>
-              <li><span>Model registry</span>${capMark(c.model_registry)}</li>
-              <li><span>Model serving</span>${capMark(c.model_serving)}</li>
-              <li><span>Feature store</span>${capMark(c.feature_store)}</li>
-              <li><span>Data versioning</span>${capMark(c.data_versioning)}</li>
-              <li><span>Kubernetes</span>${capMark(c.kubernetes_native)}</li>
-              <li><span>LLMOps</span>${capMark(c.llmops_support)}</li>
+              <li class="${c.experiment_tracking ? "row--ok" : "row--no"}"><span>Tracking</span>${capMark(c.experiment_tracking)}</li>
+              <li class="${c.pipeline_orchestration ? "row--ok" : "row--no"}"><span>Pipelines</span>${capMark(c.pipeline_orchestration)}</li>
+              <li class="${c.model_registry ? "row--ok" : "row--no"}"><span>Model registry</span>${capMark(c.model_registry)}</li>
+              <li class="${c.model_serving ? "row--ok" : "row--no"}"><span>Model serving</span>${capMark(c.model_serving)}</li>
+              <li class="${c.feature_store ? "row--ok" : "row--no"}"><span>Feature store</span>${capMark(c.feature_store)}</li>
+              <li class="${c.data_versioning ? "row--ok" : "row--no"}"><span>Data versioning</span>${capMark(c.data_versioning)}</li>
+              <li class="${c.kubernetes_native ? "row--ok" : "row--no"}"><span>Kubernetes</span>${capMark(c.kubernetes_native)}</li>
+              <li class="${c.llmops_support ? "row--ok" : "row--no"}"><span>LLMOps</span>${capMark(c.llmops_support)}</li>
               <li><span>Compliance</span><span class="measured">${escapeHtml(t.compliance.join(", ") || "None listed")}</span></li>
             </ul>
           </article>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Open Source MLOps Platforms (2026) — MLflow, Kubeflow, ZenML, ClearML</title>
+  <title>Open Source MLOps Platforms (2026): MLflow, Kubeflow, ZenML, ClearML</title>
   <meta name="description" content="Compare the top open-source MLOps platforms in 2026: MLflow, Kubeflow, ZenML, Metaflow, ClearML, Flyte, Kedro, DVC, Aim, and Feast.">
   <link rel="canonical" href="https://mlops-directory.github.io/mlops-platforms/open-source-mlops-platforms.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
 </head>
 <body>
   <header class="site-nav">
-    <div class="wrap site-nav__inner">
+    <div class="container site-nav__inner">
       <a class="brand" href="./index.html">
         <span>MLOps Platforms</span>
         <span class="brand__tag">2026.11</span>
@@ -31,29 +31,50 @@
 
   <main>
     <section class="hero">
-      <div class="wrap article-body">
+      <div class="container article-body">
         <h1 class="hero__title">Open source MLOps platforms in 2026</h1>
-        <p class="hero__lede">Self-hosted Apache-2.0 tools for experiment tracking, reproducible pipelines, and model registries without SaaS lock-in.</p>
+        <p class="lead hero__lede">Self-hosted Apache-2.0 tools for tracking, pipelines, and registries without vendor lock-in.</p>
         <div class="hero__actions">
           <a class="btn btn--primary" href="./index.html#directory">Open interactive matrix</a>
         </div>
       </div>
     </section>
 
-    <section class="band">
-      <div class="wrap article-body">
-        <h2>Choosing an open-source MLOps core</h2>
-        <p>Open-source MLOps platforms generally fall into three architectural layers. Rather than adopting a monolithic suite on day one, most engineering teams pair one experiment tracker with one orchestrator.</p>
-        <ul>
-          <li><strong>MLflow (Apache-2.0):</strong> The de-facto open standard for experiment tracking, model packaging, Model Registry, and GenAI tracing.</li>
-          <li><strong>DVC &amp; Kedro (Apache-2.0):</strong> Best for Git-first workflows where datasets, pipeline DAGs, and model checkpoints live alongside application code.</li>
-          <li><strong>ZenML &amp; Metaflow (Apache-2.0):</strong> Portable Python pipeline frameworks that let you develop locally and deploy to AWS Batch, Airflow, or Kubernetes without rewriting step logic.</li>
-          <li><strong>ClearML &amp; Kubeflow (Apache-2.0):</strong> Full-stack self-hosted suites covering GPU scheduling, hyperparameter sweeps, and model serving.</li>
-        </ul>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Choosing an open-source MLOps core</h2>
+          <p>Most engineering teams pair one experiment tracker with one orchestrator rather than adopting a monolithic suite on day one.</p>
+        </div>
+        <div class="rows-list">
+          <article class="row-item">
+            <h3>MLflow</h3>
+            <p>Apache-2.0 open standard for experiment tracking, model packaging, Model Registry, and GenAI tracing.</p>
+          </article>
+          <article class="row-item">
+            <h3>DVC &amp; Kedro</h3>
+            <p>Git-first workflows where datasets, pipeline DAGs, and model checkpoints live alongside application code.</p>
+          </article>
+          <article class="row-item">
+            <h3>ZenML &amp; Metaflow</h3>
+            <p>Portable Python pipeline frameworks that run locally and deploy to AWS Batch, Airflow, or Kubernetes unchanged.</p>
+          </article>
+          <article class="row-item">
+            <h3>ClearML &amp; Kubeflow</h3>
+            <p>Full-stack self-hosted suites covering GPU scheduling, hyperparameter sweeps, and model serving.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <h2>Run the open-source filter locally</h2>
+    <section class="section section--tight section--deep">
+      <div class="container split">
+        <div class="section-head">
+          <h2>Run the open-source filter locally</h2>
+          <p>Query verified open-source trackers directly from your terminal.</p>
+        </div>
         <div class="panels">
-          <div class="stat-cell stat-cell--wide">
+          <div class="stat-cell--wide">
             <div class="cli-snippet"><span class="cli-prompt">$</span>python3 mlops_advisor.py --license open-source --tracking</div>
           </div>
         </div>
@@ -62,7 +83,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-grid">
+    <div class="container footer-grid">
       <div>
         <a class="brand" href="./index.html">MLOps Platforms Directory</a>
         <p class="footer-note">Open-source JSON dataset and comparison tool maintained via community Pull Requests. Licensed under MIT.</p>
