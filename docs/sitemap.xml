@@ -20,4 +20,24 @@
     <loc>https://ai-lifecycle.github.io/mlops-platforms/cloud-mlops-platforms.html</loc>
     <lastmod>2026-11-16</lastmod>
   </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/sagemaker-alternatives.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/kubeflow-alternatives.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/experiment-tracking-tools.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/free-mlops-platforms.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/feature-stores-and-data-versioning.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
 </urlset>

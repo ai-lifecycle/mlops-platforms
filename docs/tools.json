@@ -5,7 +5,7 @@
     {
       "id": "mlflow",
       "name": "MLflow",
-      "tagline": "Open-source platform for the end-to-end machine learning lifecycle, experiment tracking, model registry, and GenAI tracing",
+      "tagline": "Open-source platform for the ML lifecycle: experiment tracking, model registry, and GenAI tracing",
       "category": "end-to-end-oss",
       "jobs": ["end-to-end-oss", "experiment-tracking", "llmops"],
       "license_type": "open-source",
@@ -83,7 +83,7 @@
     {
       "id": "metaflow",
       "name": "Metaflow",
-      "tagline": "Human-centric Python and R framework originally built at Netflix for reproducible data science and ML workflows",
+      "tagline": "Python and R framework originally built at Netflix for reproducible data science and ML workflows",
       "category": "end-to-end-oss",
       "jobs": ["end-to-end-oss", "kubernetes-mlops"],
       "license_type": "open-source",
@@ -109,7 +109,7 @@
     {
       "id": "clearml",
       "name": "ClearML",
-      "tagline": "Unified open-source MLOps suite combining experiment tracking, GPU orchestration, data management, and model serving",
+      "tagline": "Self-hosted MLOps suite combining experiment tracking, GPU orchestration, data management, and model serving",
       "category": "end-to-end-oss",
       "jobs": ["end-to-end-oss", "experiment-tracking", "kubernetes-mlops"],
       "license_type": "open-source",
@@ -234,7 +234,7 @@
         "llmops_support": true
       },
       "compliance": ["SOC 2", "HIPAA", "GDPR"],
-      "best_for": "Deep learning and LLM teams wanting best-in-class training telemetry, artifact lineage, and collaborative reports."
+      "best_for": "Deep learning and LLM teams needing granular training telemetry, artifact lineage, and collaborative reports."
     },
     {
       "id": "neptune-ai",
@@ -343,7 +343,7 @@
     {
       "id": "vertex-ai",
       "name": "Google Cloud Vertex AI",
-      "tagline": "Unified Google Cloud ML and GenAI platform with Vertex Pipelines, Feature Store, Model Garden, and managed serving",
+      "tagline": "Google Cloud ML and GenAI platform with Vertex Pipelines, Feature Store, Model Garden, and managed serving",
       "category": "managed-cloud",
       "jobs": ["managed-cloud", "llmops", "regulated-enterprise"],
       "license_type": "commercial",
@@ -416,7 +416,7 @@
         "llmops_support": true
       },
       "compliance": ["SOC 2", "HIPAA", "ISO 27001", "FedRAMP", "GDPR"],
-      "best_for": "Data-centric organizations already running Delta Lake who want unified data, ML, and LLM governance."
+      "best_for": "Data-centric organizations running Delta Lake that want shared data, ML, and LLM governance."
     },
     {
       "id": "ray",
@@ -473,7 +473,7 @@
     {
       "id": "bentoml",
       "name": "BentoML",
-      "tagline": "Unified Python framework for packaging, containerizing, and serving ML and LLM applications at high throughput",
+      "tagline": "Python framework for packaging, containerizing, and serving ML and LLM applications at high throughput",
       "category": "model-serving",
       "jobs": ["model-serving", "llmops", "end-to-end-oss"],
       "license_type": "open-source",

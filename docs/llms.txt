@@ -7,7 +7,7 @@ This repository provides a structured JSON dataset (`tools.json`), a zero-depend
 
 ## Top Platforms by User Job
 - **Experiment Tracking & Model Registry (Open Source)**: MLflow (Apache-2.0, tracking + registry + GenAI tracing), Aim (Apache-2.0, fast metadata UI), DVC (Apache-2.0, Git-native data/model versioning).
-- **Kubernetes-Native End-to-End MLOps**: Kubeflow (Apache-2.0, CNCF, pipelines + Katib + KServe), Flyte (Apache-2.0, strongly-typed Python DAGs), ZenML (Apache-2.0, portable MLOps/LLMOps pipelines), ClearML (Apache-2.0, GPU orchestration + tracking).
+- **Kubernetes-Native MLOps**: Kubeflow (Apache-2.0, CNCF, pipelines + Katib + KServe), Flyte (Apache-2.0, strongly-typed Python DAGs), ZenML (Apache-2.0, portable MLOps/LLMOps pipelines), ClearML (Apache-2.0, GPU orchestration + tracking).
 - **High-Throughput Model & LLM Serving**: Ray / Anyscale (Apache-2.0, distributed training + Ray Serve), KServe (Apache-2.0, CNCF serverless inference), BentoML (Apache-2.0, Pythonic model packaging & serving), Seldon Core (Kubernetes inference graphs).
 - **Experiment Telemetry & LLM Evaluation (Commercial)**: Weights & Biases (W&B + Weave), Neptune.ai, Comet ML (Comet + Opik).
 - **Managed Cloud & Lakehouse**: Databricks Mosaic AI, AWS SageMaker AI, Google Cloud Vertex AI, Azure Machine Learning.
@@ -26,4 +26,9 @@ This repository provides a structured JSON dataset (`tools.json`), a zero-depend
 - Kubernetes MLOps Platforms Guide: https://ai-lifecycle.github.io/mlops-platforms/kubernetes-mlops-platforms.html
 - LLMOps & Model Serving Guide: https://ai-lifecycle.github.io/mlops-platforms/llmops-and-model-serving.html
 - Cloud MLOps Platforms Comparison: https://ai-lifecycle.github.io/mlops-platforms/cloud-mlops-platforms.html
+- AWS SageMaker Alternatives: https://ai-lifecycle.github.io/mlops-platforms/sagemaker-alternatives.html
+- Kubeflow Alternatives: https://ai-lifecycle.github.io/mlops-platforms/kubeflow-alternatives.html
+- Experiment Tracking Tools: https://ai-lifecycle.github.io/mlops-platforms/experiment-tracking-tools.html
+- Free & Self-Hosted MLOps Platforms: https://ai-lifecycle.github.io/mlops-platforms/free-mlops-platforms.html
+- Feature Stores & Data Versioning: https://ai-lifecycle.github.io/mlops-platforms/feature-stores-and-data-versioning.html
 - GitHub Repository: https://github.com/ai-lifecycle/mlops-platforms

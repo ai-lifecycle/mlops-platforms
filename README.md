@@ -2,11 +2,11 @@
 
 # MLOps Platforms — Open Source Directory & Comparison Tool (2026)
 
-**An unbiased, structured directory comparing 24 open-source and commercial MLOps platforms — filterable by engineering workflow, Kubernetes support, LLMOps readiness, compliance standards, and pricing.**
+**Compare 24 open-source and commercial MLOps platforms by experiment tracking, Kubernetes orchestration, model serving, LLMOps, and compliance.**
 
 [![Verified Platforms](https://img.shields.io/badge/Verified_Platforms-24_Active-d97706?style=flat-square)](#-open-source-mlops-platforms)
-[![Open Source](https://img.shields.io/badge/Open_Source-13_Platforms-10b981?style=flat-square)](#-open-source-mlops-platforms)
-[![Kubernetes Native](https://img.shields.io/badge/Kubernetes_Native-15_Platforms-3b82f6?style=flat-square)](#-quick-decision-matrix-by-user-job)
+[![Open Source](https://img.shields.io/badge/Open_Source-14_Platforms-10b981?style=flat-square)](#-open-source-mlops-platforms)
+[![Kubernetes Native](https://img.shields.io/badge/Kubernetes_Native-13_Platforms-3b82f6?style=flat-square)](#-quick-decision-matrix-by-user-job)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
 [**Interactive Web Directory** →](https://ai-lifecycle.github.io/mlops-platforms/) • [**Quick Decision Matrix**](#-quick-decision-matrix-by-user-job) • [**Open Source Platforms**](#-open-source-mlops-platforms) • [**Commercial & Cloud Platforms**](#-commercial--cloud-managed-mlops-platforms) • [**Interactive CLI**](#-interactive-cli-comparison--matcher) • [**Submit a Platform via PR**](#-propose-a-new-platform-via-github-pull-request)
@@ -33,11 +33,11 @@ This repository maintains a verified JSON dataset ([`tools.json`](tools.json)), 
 | Your Job / Engineering Context | Top Recommended Platforms | Why It Fits | Links |
 | :--- | :--- | :--- | :--- |
 | **Experiment Tracking & Model Registry (OSS)** | **MLflow** / **Aim** / **DVC** | Framework-agnostic logging, artifact lineage, or Git-native dataset versioning | [MLflow](https://github.com/mlflow/mlflow) • [Aim](https://github.com/aimhubio/aim) • [DVC](https://github.com/iterative/dvc) |
-| **Kubernetes-Native End-to-End MLOps** | **Kubeflow** / **Flyte** / **ZenML** | Strongly-typed DAGs, Katib tuning, KServe inference, or portable orchestrator stacks | [Kubeflow](https://github.com/kubeflow/kubeflow) • [Flyte](https://github.com/flyteorg/flyte) • [ZenML](https://github.com/zenml-io/zenml) |
+| **Kubernetes-Native MLOps** | **Kubeflow** / **Flyte** / **ZenML** | Strongly-typed DAGs, Katib tuning, KServe inference, or portable orchestrator stacks | [Kubeflow](https://github.com/kubeflow/kubeflow) • [Flyte](https://github.com/flyteorg/flyte) • [ZenML](https://github.com/zenml-io/zenml) |
 | **All-in-One Self-Hosted Suite** | **ClearML** / **Metaflow** | Built-in GPU agent orchestration, experiment manager, and data/artifact tracking | [ClearML](https://github.com/clearml/clearml) • [Metaflow](https://github.com/Netflix/metaflow) |
 | **High-Throughput Model & LLM Serving** | **Ray (Anyscale)** / **BentoML** / **KServe** | Distributed GPU inference, adaptive batching, scale-to-zero, and vLLM serving | [Ray](https://github.com/ray-project/ray) • [BentoML](https://github.com/bentoml/BentoML) • [KServe](https://github.com/kserve/kserve) |
 | **Experiment Telemetry & LLM Evaluation (SaaS)** | **Weights & Biases** / **Neptune.ai** / **Comet ML** | High-scale training telemetry, Weave/Opik LLM tracing, and collaborative reports | [W&B](https://wandb.ai/) • [Neptune](https://neptune.ai/) • [Comet](https://www.comet.com/) |
-| **Managed Cloud & Lakehouse MLOps** | **Databricks Mosaic AI** / **AWS SageMaker** / **Vertex AI** / **Azure ML** | Unified IAM, Unity Catalog / Feature Store, and SOC 2 / HIPAA / FedRAMP compliance | [Databricks](https://www.databricks.com/product/machine-learning) • [SageMaker](https://aws.amazon.com/sagemaker/) • [Vertex AI](https://cloud.google.com/vertex-ai) |
+| **Managed Cloud & Lakehouse MLOps** | **Databricks Mosaic AI** / **AWS SageMaker** / **Vertex AI** / **Azure ML** | Cloud IAM, Unity Catalog / Feature Store, and SOC 2 / HIPAA / FedRAMP compliance | [Databricks](https://www.databricks.com/product/machine-learning) • [SageMaker](https://aws.amazon.com/sagemaker/) • [Vertex AI](https://cloud.google.com/vertex-ai) |
 | **Regulated Enterprise Governance** | **Domino Data Lab** / **DataRobot** / **Valohai** | Auditable workspaces, model risk management, and multi-cloud VPC reproducibility | [Domino](https://domino.ai/) • [DataRobot](https://www.datarobot.com/) • [Valohai](https://valohai.com/) |
 
 ---
