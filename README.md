@@ -11,6 +11,10 @@
 
 [**Interactive Web Directory** →](https://ai-lifecycle.github.io/mlops-platforms/) • [**Quick Decision Matrix**](#-quick-decision-matrix-by-user-job) • [**Open Source Platforms**](#-open-source-mlops-platforms) • [**Commercial & Cloud Platforms**](#-commercial--cloud-managed-mlops-platforms) • [**Interactive CLI**](#-interactive-cli-comparison--matcher) • [**Submit a Platform via PR**](#-propose-a-new-platform-via-github-pull-request)
 
+<br>
+
+![MLOps Platforms Directory](docs/assets/preview.png)
+
 </div>
 
 ---
