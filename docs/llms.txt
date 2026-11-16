@@ -1,0 +1,29 @@
+# MLOps Platforms: Open Source Directory & Comparison Tool (2026)
+
+> Verified comparison of 24 open-source and commercial MLOps platforms, filterable by engineering workflow, Kubernetes support, LLMOps readiness, compliance standards, and pricing (Verified: 2026-11-16).
+
+## Summary
+This repository provides a structured JSON dataset (`tools.json`), a zero-dependency Python CLI (`mlops_advisor.py`), and an interactive GitHub Pages directory (`docs/index.html`) to help ML engineers, platform teams, and AI architects evaluate and select MLOps platforms.
+
+## Top Platforms by User Job
+- **Experiment Tracking & Model Registry (Open Source)**: MLflow (Apache-2.0, tracking + registry + GenAI tracing), Aim (Apache-2.0, fast metadata UI), DVC (Apache-2.0, Git-native data/model versioning).
+- **Kubernetes-Native End-to-End MLOps**: Kubeflow (Apache-2.0, CNCF, pipelines + Katib + KServe), Flyte (Apache-2.0, strongly-typed Python DAGs), ZenML (Apache-2.0, portable MLOps/LLMOps pipelines), ClearML (Apache-2.0, GPU orchestration + tracking).
+- **High-Throughput Model & LLM Serving**: Ray / Anyscale (Apache-2.0, distributed training + Ray Serve), KServe (Apache-2.0, CNCF serverless inference), BentoML (Apache-2.0, Pythonic model packaging & serving), Seldon Core (Kubernetes inference graphs).
+- **Experiment Telemetry & LLM Evaluation (Commercial)**: Weights & Biases (W&B + Weave), Neptune.ai, Comet ML (Comet + Opik).
+- **Managed Cloud & Lakehouse**: Databricks Mosaic AI, AWS SageMaker AI, Google Cloud Vertex AI, Azure Machine Learning.
+- **Regulated Enterprise**: Domino Data Lab, DataRobot, Valohai.
+
+## Quick CLI Usage
+- Filter open-source Kubernetes platforms: `python3 mlops_advisor.py --license open-source --k8s`
+- Filter by compliance standard: `python3 mlops_advisor.py --compliance "HIPAA"`
+- Compare up to 3 platforms: `python3 mlops_advisor.py --compare mlflow kubeflow weights-and-biases`
+- Guided recommendation: `python3 mlops_advisor.py --recommend --workflow llmops --budget free --llmops`
+- Validate dataset: `python3 mlops_advisor.py --validate`
+
+## Official Links
+- Interactive Web Directory: https://mlops-directory.github.io/mlops-platforms/
+- Open Source MLOps Platforms Guide: https://mlops-directory.github.io/mlops-platforms/open-source-mlops-platforms.html
+- Kubernetes MLOps Platforms Guide: https://mlops-directory.github.io/mlops-platforms/kubernetes-mlops-platforms.html
+- LLMOps & Model Serving Guide: https://mlops-directory.github.io/mlops-platforms/llmops-and-model-serving.html
+- Cloud MLOps Platforms Comparison: https://mlops-directory.github.io/mlops-platforms/cloud-mlops-platforms.html
+- GitHub Repository: https://github.com/mlops-directory/mlops-platforms

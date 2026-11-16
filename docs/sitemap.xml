@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mlops-directory.github.io/mlops-platforms/</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mlops-directory.github.io/mlops-platforms/open-source-mlops-platforms.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mlops-directory.github.io/mlops-platforms/kubernetes-mlops-platforms.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mlops-directory.github.io/mlops-platforms/llmops-and-model-serving.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://mlops-directory.github.io/mlops-platforms/cloud-mlops-platforms.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+</urlset>

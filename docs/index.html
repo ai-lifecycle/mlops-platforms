@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLOps Platforms Directory &amp; Comparison Tool (2026)</title>
+  <meta name="description" content="Unbiased directory comparing 24 open-source and commercial MLOps platforms by experiment tracking, Kubernetes orchestration, model serving, LLMOps, and compliance.">
+  <link rel="canonical" href="https://mlops-directory.github.io/mlops-platforms/">
+  <meta property="og:title" content="MLOps Platforms Directory &amp; Comparison Tool (2026)">
+  <meta property="og:description" content="Compare 24 open-source, Kubernetes-native, and cloud-managed MLOps platforms side by side.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Host+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "MLOps Platforms Directory (2026)",
+    "description": "Structured comparison of 24 open-source and commercial MLOps platforms across experiment tracking, pipeline orchestration, model serving, feature stores, Kubernetes support, and compliance.",
+    "url": "https://mlops-directory.github.io/mlops-platforms/",
+    "license": "https://opensource.org/licenses/MIT",
+    "dateModified": "2026-11-16"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-nav">
+    <div class="wrap site-nav__inner">
+      <a class="brand" href="./index.html">
+        <span>MLOps Platforms</span>
+        <span class="brand__tag">2026.11</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="./index.html" aria-current="page">Directory</a>
+        <a href="./open-source-mlops-platforms.html">Open source</a>
+        <a href="./kubernetes-mlops-platforms.html">Kubernetes</a>
+        <a href="./llmops-and-model-serving.html">LLMOps &amp; serving</a>
+        <a href="./cloud-mlops-platforms.html">Cloud &amp; enterprise</a>
+        <a href="https://github.com/mlops-directory/mlops-platforms">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div>
+          <h1 class="hero__title">Compare 24 MLOps platforms by architecture</h1>
+          <p class="hero__lede">Filter open-source, Kubernetes, cloud, and LLMOps stacks without vendor bias.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#directory">Explore platform matrix</a>
+            <a class="btn" href="#cli-advisor">Run Python CLI</a>
+          </div>
+        </div>
+
+        <aside class="panels hero-bench" aria-label="Dataset summary">
+          <div class="stat-cell">
+            <span class="stat-cell__label">Verified platforms</span>
+            <span class="stat-cell__value" id="stat-total">24</span>
+            <span class="stat-cell__note">Last verified 2026-11-16</span>
+          </div>
+          <div class="stat-cell">
+            <span class="stat-cell__label">Open source</span>
+            <span class="stat-cell__value" id="stat-oss">14</span>
+            <span class="stat-cell__note">Apache-2.0 &amp; permissive</span>
+          </div>
+          <div class="stat-cell">
+            <span class="stat-cell__label">Kubernetes native</span>
+            <span class="stat-cell__value" id="stat-k8s">15</span>
+            <span class="stat-cell__note">CRDs &amp; cluster operators</span>
+          </div>
+          <div class="stat-cell">
+            <span class="stat-cell__label">LLMOps ready</span>
+            <span class="stat-cell__value" id="stat-llm">20</span>
+            <span class="stat-cell__note">Tracing, eval, or vLLM</span>
+          </div>
+          <div class="stat-cell stat-cell--wide">
+            <div class="cli-snippet">
+              <span class="cli-prompt">$</span>python3 mlops_advisor.py --recommend --workflow llmops --budget free
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band" id="directory">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Interactive MLOps platform matrix</h2>
+          <p>Filter by license model, engineering job, compliance requirement, or core pipeline capabilities. Select up to three platforms to compare side by side.</p>
+        </div>
+
+        <form class="filter-bar" id="filter-form" onsubmit="return false;">
+          <div class="field">
+            <label for="search-input">Search platforms</label>
+            <input id="search-input" type="search" placeholder="MLflow, Kubeflow, Ray, SageMaker…">
+          </div>
+          <div class="field">
+            <label for="license-select">License model</label>
+            <select id="license-select">
+              <option value="all">All licenses</option>
+              <option value="open-source">Open source</option>
+              <option value="commercial">Commercial</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="job-select">Engineering job</label>
+            <select id="job-select">
+              <option value="all">All workflows</option>
+              <option value="end-to-end-oss">End-to-end OSS</option>
+              <option value="experiment-tracking">Experiment tracking</option>
+              <option value="kubernetes-mlops">Kubernetes MLOps</option>
+              <option value="managed-cloud">Managed cloud</option>
+              <option value="model-serving">Model serving</option>
+              <option value="llmops">LLMOps &amp; GenAI</option>
+              <option value="regulated-enterprise">Regulated enterprise</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="compliance-select">Compliance</label>
+            <select id="compliance-select">
+              <option value="all">Any compliance</option>
+              <option value="SOC 2">SOC 2</option>
+              <option value="HIPAA">HIPAA</option>
+              <option value="ISO 27001">ISO 27001</option>
+              <option value="FedRAMP">FedRAMP</option>
+              <option value="GDPR">GDPR</option>
+            </select>
+          </div>
+        </form>
+
+        <div class="cap-chips" role="group" aria-label="Capability filters">
+          <button type="button" class="chip" data-cap="experiment_tracking" aria-pressed="false">Experiment tracking</button>
+          <button type="button" class="chip" data-cap="pipeline_orchestration" aria-pressed="false">Pipelines</button>
+          <button type="button" class="chip" data-cap="model_registry" aria-pressed="false">Model registry</button>
+          <button type="button" class="chip" data-cap="model_serving" aria-pressed="false">Model serving</button>
+          <button type="button" class="chip" data-cap="feature_store" aria-pressed="false">Feature store</button>
+          <button type="button" class="chip" data-cap="kubernetes_native" aria-pressed="false">Kubernetes native</button>
+          <button type="button" class="chip" data-cap="llmops_support" aria-pressed="false">LLMOps</button>
+          <button type="button" class="btn" id="reset-filters">Reset</button>
+        </div>
+
+        <div class="results-meta">
+          <span>Showing <span class="results-count" id="results-count">24</span> of 24 verified platforms</span>
+          <span id="compare-status">Select up to 3 platforms to compare below</span>
+        </div>
+
+        <div class="table-wrap">
+          <table class="dir-table">
+            <thead>
+              <tr>
+                <th>Platform</th>
+                <th>License</th>
+                <th>Tracking</th>
+                <th>Pipelines</th>
+                <th>Serving</th>
+                <th>K8s</th>
+                <th>LLMOps</th>
+                <th>Pricing</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="platforms-tbody">
+              <tr>
+                <td colspan="9">Loading verified MLOps platforms from tools.json...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band--deep" id="compare-section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Side-by-side platform diff</h2>
+          <p>Compare capabilities, deployment targets, compliance posture, and pricing across three selected MLOps platforms.</p>
+        </div>
+        <div class="panels compare-grid" id="compare-grid">
+          <div class="compare-col">
+            <p class="tool-tagline">Select platforms using the Compare buttons in the table above.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="cli-advisor">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Zero-dependency Python CLI advisor</h2>
+          <p>Run automated filtering, side-by-side comparisons, and schema validation directly in your terminal or CI pipeline.</p>
+        </div>
+        <div class="panels">
+          <div class="stat-cell stat-cell--wide">
+            <div class="cli-snippet"><span class="cli-prompt">$</span>python3 mlops_advisor.py --license open-source --k8s</div>
+          </div>
+          <div class="stat-cell stat-cell--wide">
+            <div class="cli-snippet"><span class="cli-prompt">$</span>python3 mlops_advisor.py --compare mlflow kubeflow weights-and-biases</div>
+          </div>
+          <div class="stat-cell stat-cell--wide">
+            <div class="cli-snippet"><span class="cli-prompt">$</span>python3 mlops_advisor.py --validate &amp;&amp; python3 -m unittest discover -s tests -v</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band--deep">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Architecture &amp; selection guides</h2>
+          <p>Deep-dive comparisons organized by infrastructure footprint and engineering team job.</p>
+        </div>
+        <div class="panels guide-grid">
+          <article class="guide-cell">
+            <h3>Open source MLOps platforms</h3>
+            <p>Compare Apache-2.0 experiment trackers, Git-native versioning, and self-hosted suites without vendor lock-in.</p>
+            <a class="text-link" href="./open-source-mlops-platforms.html">Read open-source guide</a>
+          </article>
+          <article class="guide-cell">
+            <h3>Kubernetes-native MLOps</h3>
+            <p>Evaluate Kubeflow, Flyte, ZenML, ClearML, and KServe for multi-tenant GPU orchestration.</p>
+            <a class="text-link" href="./kubernetes-mlops-platforms.html">Read Kubernetes guide</a>
+          </article>
+          <article class="guide-cell">
+            <h3>LLMOps &amp; model serving</h3>
+            <p>Select inference engines and prompt evaluation stacks including Ray Serve, BentoML, W&amp;B Weave, and MLflow.</p>
+            <a class="text-link" href="./llmops-and-model-serving.html">Read LLMOps guide</a>
+          </article>
+          <article class="guide-cell">
+            <h3>Cloud &amp; regulated enterprise</h3>
+            <p>Side-by-side breakdown of AWS SageMaker, Vertex AI, Azure ML, Databricks Mosaic AI, and Domino.</p>
+            <a class="text-link" href="./cloud-mlops-platforms.html">Read cloud comparison</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="./index.html">MLOps Platforms Directory</a>
+        <p class="footer-note">Open-source JSON dataset and comparison tool maintained via community Pull Requests. Licensed under MIT.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./tools.json">tools.json</a>
+        <a href="./llms.txt">llms.txt</a>
+        <a href="https://github.com/mlops-directory/mlops-platforms">GitHub repository</a>
+        <a href="https://github.com/mlops-directory/mlops-platforms/blob/main/CONTRIBUTING.md">Submit a platform</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
