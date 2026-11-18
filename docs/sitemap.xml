@@ -2,42 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/open-source-mlops-platforms.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/kubernetes-mlops-platforms.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/llmops-and-model-serving.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/cloud-mlops-platforms.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/sagemaker-alternatives.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/kubeflow-alternatives.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/experiment-tracking-tools.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/free-mlops-platforms.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
   </url>
   <url>
     <loc>https://ai-lifecycle.github.io/mlops-platforms/feature-stores-and-data-versioning.html</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/mlflow-alternatives.html</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/weights-and-biases-alternatives.html</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/mlflow-vs-kubeflow.html</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/sagemaker-vs-vertex-ai-vs-azure-ml.html</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/ml-model-serving-platforms.html</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/ml-pipeline-orchestration-tools.html</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/enterprise-mlops-governance-compliance.html</loc>
+    <lastmod>2026-11-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ai-lifecycle.github.io/mlops-platforms/self-hosted-mlops-platforms.html</loc>
+    <lastmod>2026-11-18</lastmod>
   </url>
 </urlset>

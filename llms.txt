@@ -31,4 +31,12 @@ This repository provides a structured JSON dataset (`tools.json`), a zero-depend
 - Experiment Tracking Tools: https://ai-lifecycle.github.io/mlops-platforms/experiment-tracking-tools.html
 - Free & Self-Hosted MLOps Platforms: https://ai-lifecycle.github.io/mlops-platforms/free-mlops-platforms.html
 - Feature Stores & Data Versioning: https://ai-lifecycle.github.io/mlops-platforms/feature-stores-and-data-versioning.html
+- MLflow Alternatives: https://ai-lifecycle.github.io/mlops-platforms/mlflow-alternatives.html
+- Weights & Biases Alternatives: https://ai-lifecycle.github.io/mlops-platforms/weights-and-biases-alternatives.html
+- MLflow vs Kubeflow: https://ai-lifecycle.github.io/mlops-platforms/mlflow-vs-kubeflow.html
+- SageMaker vs Vertex AI vs Azure ML: https://ai-lifecycle.github.io/mlops-platforms/sagemaker-vs-vertex-ai-vs-azure-ml.html
+- ML Model Serving Platforms: https://ai-lifecycle.github.io/mlops-platforms/ml-model-serving-platforms.html
+- ML Pipeline Orchestration Tools: https://ai-lifecycle.github.io/mlops-platforms/ml-pipeline-orchestration-tools.html
+- Enterprise MLOps Governance & Compliance: https://ai-lifecycle.github.io/mlops-platforms/enterprise-mlops-governance-compliance.html
+- Self-Hosted & On-Premises MLOps: https://ai-lifecycle.github.io/mlops-platforms/self-hosted-mlops-platforms.html
 - GitHub Repository: https://github.com/ai-lifecycle/mlops-platforms

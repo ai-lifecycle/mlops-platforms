@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="HqgfQrEQATXaycciOAu8GzuJP8BSRHtaR1JrgBtnApU">
+  <title>MLflow Alternatives (2026): Self-Hosted &amp; Managed Experiment Trackers</title>
+  <meta name="description" content="Compare MLflow alternatives in 2026: Weights &amp; Biases, Neptune.ai, Comet ML, Aim, ClearML, and ZenML for experiment tracking and model registry.">
+  <link rel="canonical" href="https://ai-lifecycle.github.io/mlops-platforms/mlflow-alternatives.html">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="https://ai-lifecycle.github.io/mlops-platforms/assets/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ai-lifecycle.github.io/mlops-platforms/assets/preview.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Host+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/site.css">
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container site-nav__inner">
+      <a class="brand" href="./index.html">
+        <span>MLOps Platforms</span>
+        <span class="brand__tag">2026.11</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="./index.html">Directory</a>
+        <a href="./open-source-mlops-platforms.html">Open source</a>
+        <a href="./kubernetes-mlops-platforms.html">Kubernetes</a>
+        <a href="./llmops-and-model-serving.html">LLMOps &amp; serving</a>
+        <a href="./cloud-mlops-platforms.html">Cloud &amp; enterprise</a>
+        <a href="https://github.com/ai-lifecycle/mlops-platforms">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container article-body">
+        <h1 class="hero__title">MLflow alternatives for tracking &amp; pipelines</h1>
+        <p class="lead hero__lede">Pick faster UIs, built-in GPU orchestration, or managed telemetry beyond MLflow.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="./index.html#directory">Compare MLflow alternatives</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Where teams outgrow standalone MLflow</h2>
+          <p>MLflow covers tracking and registry well, but lacks native pipeline orchestration, GPU queues, and fast multi-thousand-run queries.</p>
+        </div>
+        <div class="rows-list">
+          <article class="row-item">
+            <h3>Aim</h3>
+            <p>Open-source local-first metadata UI built for querying and comparing tens of thousands of deep learning runs.</p>
+          </article>
+          <article class="row-item">
+            <h3>ClearML</h3>
+            <p>Adds remote GPU agent scheduling, dataset versioning, and serving on top of experiment tracking.</p>
+          </article>
+          <article class="row-item">
+            <h3>Weights &amp; Biases &amp; Neptune.ai</h3>
+            <p>Managed SaaS and VPC platforms with high-frequency system telemetry, sweeps, and collaborative reports.</p>
+          </article>
+          <article class="row-item">
+            <h3>ZenML</h3>
+            <p>Orchestrates full training and evaluation DAGs while still letting you plug in MLflow as a tracker.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight section--deep">
+      <div class="container split">
+        <div class="section-head">
+          <h2>Compare MLflow side by side</h2>
+          <p>Diff MLflow against ClearML and Weights &amp; Biases in the CLI.</p>
+        </div>
+        <div class="panels">
+          <div class="stat-cell--wide">
+            <div class="cli-snippet"><span class="cli-prompt">$</span>python3 mlops_advisor.py --compare mlflow clearml weights-and-biases</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="./index.html">MLOps Platforms Directory</a>
+        <p class="footer-note">Open-source JSON dataset and comparison tool maintained via community Pull Requests. Licensed under MIT.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">Full matrix</a>
+        <a href="./weights-and-biases-alternatives.html">W&amp;B alternatives</a>
+        <a href="./mlflow-vs-kubeflow.html">MLflow vs Kubeflow</a>
+        <a href="./experiment-tracking-tools.html">Tracking tools</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

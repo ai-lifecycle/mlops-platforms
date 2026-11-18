@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="HqgfQrEQATXaycciOAu8GzuJP8BSRHtaR1JrgBtnApU">
+  <title>MLflow vs Kubeflow (2026): Tracking vs Kubernetes Pipelines</title>
+  <meta name="description" content="MLflow vs Kubeflow comparison in 2026: architecture, Kubernetes requirements, experiment tracking, model serving, and when to use both.">
+  <link rel="canonical" href="https://ai-lifecycle.github.io/mlops-platforms/mlflow-vs-kubeflow.html">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="https://ai-lifecycle.github.io/mlops-platforms/assets/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ai-lifecycle.github.io/mlops-platforms/assets/preview.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Host+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/site.css">
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container site-nav__inner">
+      <a class="brand" href="./index.html">
+        <span>MLOps Platforms</span>
+        <span class="brand__tag">2026.11</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="./index.html">Directory</a>
+        <a href="./open-source-mlops-platforms.html">Open source</a>
+        <a href="./kubernetes-mlops-platforms.html">Kubernetes</a>
+        <a href="./llmops-and-model-serving.html">LLMOps &amp; serving</a>
+        <a href="./cloud-mlops-platforms.html">Cloud &amp; enterprise</a>
+        <a href="https://github.com/ai-lifecycle/mlops-platforms">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container article-body">
+        <h1 class="hero__title">MLflow vs Kubeflow: which layer fits?</h1>
+        <p class="lead hero__lede">Compare lightweight Python experiment tracking against full Kubernetes pipeline orchestration.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="./index.html#compare-section">Open diff matrix</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Complementary layers, not direct clones</h2>
+          <p>MLflow tracks runs and packages models anywhere; Kubeflow schedules multi-container training DAGs and KServe inference on Kubernetes.</p>
+        </div>
+        <div class="rows-list">
+          <article class="row-item">
+            <h3>Infrastructure footprint</h3>
+            <p>MLflow runs as a single Python process or container; Kubeflow requires a Kubernetes cluster with Istio and Knative.</p>
+          </article>
+          <article class="row-item">
+            <h3>Pipeline orchestration</h3>
+            <p>Kubeflow Pipelines compiles typed DAGs into Argo Workflows; MLflow focuses on logging, registry, and evaluation.</p>
+          </article>
+          <article class="row-item">
+            <h3>Model serving</h3>
+            <p>MLflow serves standard Python/PyFunc containers; Kubeflow uses KServe for scale-to-zero and multi-node GPU inference.</p>
+          </article>
+          <article class="row-item">
+            <h3>Using both together</h3>
+            <p>Many platform teams run Kubeflow Pipelines for compute orchestration and log metrics/models to MLflow.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight section--deep">
+      <div class="container split">
+        <div class="section-head">
+          <h2>Diff MLflow and Kubeflow</h2>
+          <p>Run the CLI comparison for exact capability flags.</p>
+        </div>
+        <div class="panels">
+          <div class="stat-cell--wide">
+            <div class="cli-snippet"><span class="cli-prompt">$</span>python3 mlops_advisor.py --compare mlflow kubeflow</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="./index.html">MLOps Platforms Directory</a>
+        <p class="footer-note">Open-source JSON dataset and comparison tool maintained via community Pull Requests. Licensed under MIT.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">Full matrix</a>
+        <a href="./mlflow-alternatives.html">MLflow alternatives</a>
+        <a href="./kubeflow-alternatives.html">Kubeflow alternatives</a>
+        <a href="./kubernetes-mlops-platforms.html">Kubernetes guide</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

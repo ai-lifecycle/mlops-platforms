@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="HqgfQrEQATXaycciOAu8GzuJP8BSRHtaR1JrgBtnApU">
+  <title>Self-Hosted &amp; On-Premises MLOps Platforms (2026): VPC &amp; Air-Gapped</title>
+  <meta name="description" content="Compare self-hosted and on-premises MLOps platforms in 2026: ClearML, MLflow, Kubeflow, Domino Data Lab, Valohai, Seldon Core, and Aim.">
+  <link rel="canonical" href="https://ai-lifecycle.github.io/mlops-platforms/self-hosted-mlops-platforms.html">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:image" content="https://ai-lifecycle.github.io/mlops-platforms/assets/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ai-lifecycle.github.io/mlops-platforms/assets/preview.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;500&family=Host+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/site.css">
+</head>
+<body>
+  <header class="site-nav">
+    <div class="container site-nav__inner">
+      <a class="brand" href="./index.html">
+        <span>MLOps Platforms</span>
+        <span class="brand__tag">2026.11</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="./index.html">Directory</a>
+        <a href="./open-source-mlops-platforms.html">Open source</a>
+        <a href="./kubernetes-mlops-platforms.html">Kubernetes</a>
+        <a href="./llmops-and-model-serving.html">LLMOps &amp; serving</a>
+        <a href="./cloud-mlops-platforms.html">Cloud &amp; enterprise</a>
+        <a href="https://github.com/ai-lifecycle/mlops-platforms">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container article-body">
+        <h1 class="hero__title">Self-hosted &amp; on-premises MLOps platforms</h1>
+        <p class="lead hero__lede">Keep training data, model weights, and telemetry inside your own VPC.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="./index.html#directory">Explore self-hosted tools</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>On-premises and private-VPC options</h2>
+          <p>Whether running bare-metal DGX nodes or private Kubernetes clusters, these platforms deploy without external SaaS telemetry.</p>
+        </div>
+        <div class="rows-list">
+          <article class="row-item">
+            <h3>ClearML</h3>
+            <p>Self-hosted server and GPU agents that run on bare-metal Linux servers, Docker Compose, or Kubernetes.</p>
+          </article>
+          <article class="row-item">
+            <h3>MLflow &amp; Aim</h3>
+            <p>Lightweight Python tracking servers backed by local Postgres/SQLite and MinIO/S3 object storage.</p>
+          </article>
+          <article class="row-item">
+            <h3>Kubeflow &amp; Seldon Core</h3>
+            <p>Air-gapped Kubernetes ML pipelines and inference graphs with private container registries.</p>
+          </article>
+          <article class="row-item">
+            <h3>Domino Data Lab &amp; Valohai</h3>
+            <p>Commercial VPC and on-premises enterprise suites with vendor support and Docker reproducibility.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight section--deep">
+      <div class="container split">
+        <div class="section-head">
+          <h2>Compare self-hosted suites</h2>
+          <p>Diff ClearML, Kubeflow, and Domino Data Lab in the CLI.</p>
+        </div>
+        <div class="panels">
+          <div class="stat-cell--wide">
+            <div class="cli-snippet"><span class="cli-prompt">$</span>python3 mlops_advisor.py --compare clearml kubeflow domino-data-lab</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="./index.html">MLOps Platforms Directory</a>
+        <p class="footer-note">Open-source JSON dataset and comparison tool maintained via community Pull Requests. Licensed under MIT.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">Full matrix</a>
+        <a href="./open-source-mlops-platforms.html">Open source guide</a>
+        <a href="./enterprise-mlops-governance-compliance.html">Enterprise compliance</a>
+        <a href="./weights-and-biases-alternatives.html">W&amp;B alternatives</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
